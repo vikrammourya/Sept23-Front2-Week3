@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(217, 217, 217, 1);
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    text-align: left;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+#header-text {
+    margin-left: 30px;
+    padding: 15px;
+    font-stretch: ultra-expanded;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.search-bar {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-right: 10px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.search-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rectangular-button {
+    flex-grow: 1;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 0;
+    cursor: pointer;
+}
+/*---------------------------for table only----------------------------------------------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: rgba(217, 217, 217, 1); /* Background color for table header */
+    color: #000; /* Text color for table header */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+
+/* this is used in for js only */
+#profile-image{  
+    border: 1px solid #676a6b;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
